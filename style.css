@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: white;
-  min-height: 2000px;
+  min-height: 3000px;
 }
 
 /* phone */
@@ -43,7 +43,45 @@ body {
   position: relative;
 }
 
-.hero .content h1 {
+h1 {
   font-size: 4em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+.hero .content h1 {
+  font-size: 5em;
   color: white;
+}
+
+.about {
+  padding-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.centered-text {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wider-text {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsive-img-half {
+  max-width: 60%;
+  object-fit: cover;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
