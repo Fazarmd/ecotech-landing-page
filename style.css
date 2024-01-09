@@ -1,4 +1,49 @@
 body {
   font-family: "Poppins", sans-serif;
+  color: white;
   min-height: 2000px;
+}
+
+/* phone */
+@media (max-width: 575.98px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(img/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero .content h1 {
+  font-size: 4em;
+  color: white;
 }
