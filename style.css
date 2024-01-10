@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: white;
-  min-height: 5000px;
+  min-height: 10000px;
 }
 
 /* phone */
@@ -92,4 +92,27 @@ p {
   align-items: center;
   justify-content: center;
   color: black;
+  padding-bottom: 10rem;
+}
+
+.team {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: white;
+  min-height: 100vh;
+  background-image: url(img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.team .content {
+  padding-top: 100px;
+}
+
+.team .card-img-top {
+  height: 200px;
+  object-fit: cover;
 }
