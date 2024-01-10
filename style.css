@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: white;
-  min-height: 3000px;
+  min-height: 5000px;
 }
 
 /* phone */
@@ -84,4 +84,12 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.project {
+  padding-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
 }
